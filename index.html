@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="styles/normalize.css" /> -->
+    <!-- <link rel="stylesheet" href="styles/styles.css" /> -->
+    <link rel="stylesheet" href="styles/styles.min.css">
+    <title>Chat</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="chat-box">
+        <div class="chat-header">
+          <h1 class="chat-title">Mark Zuckerberg</h1>
+          <a class="chat-close" href="javascript:void(0)">×</a>
+        </div>
+        <div class="chat-body">
+          <div class="chat-content">
+            <div class="chat-timeline"><span>Today</span></div>
+            <div class="chat-item is-you">
+              <time class="chat-time">10:53</time>
+              <p class="chat-message">
+                Hi, Mark! I made a new design for Messenger App.
+              </p>
+            </div>
+            <div class="chat-item is-me">
+              <time class="chat-time">10:57</time>
+              <p class="chat-message">
+                Yo! Send it to my assistant and we'll review it during the year.
+              </p>
+            </div>
+            <div class="chat-item is-you is-you--small">
+              <time class="chat-time">11:30</time>
+              <p class="chat-message">But Mark...</p>
+            </div>
+            <div class="chat-item is-warning">
+              <p class="chat-message">You were blocked by the user.</p>
+            </div>
+            <form class="chat-form">
+              <input
+                class="chat-form-input"
+                type="text"
+                placeholder="Enter your message"
+              /><a class="button" href="">Send</a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
